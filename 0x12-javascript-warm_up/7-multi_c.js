@@ -4,7 +4,7 @@
 const x = parseInt(process.argv[2]);
 
 // Check if x is NaN or less than 1
-if (isNaN(x) || x < 1) {
+if (isNaN(x)) {
   console.log('Missing number of occurrences');
 } else {
   // Loop to print "C is fun" x times
@@ -12,3 +12,4 @@ if (isNaN(x) || x < 1) {
     console.log('C is fun');
   }
 }
+
