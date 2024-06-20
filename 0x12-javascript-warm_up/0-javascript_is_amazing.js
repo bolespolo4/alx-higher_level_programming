@@ -1,3 +1,3 @@
 #!/usr/bin/node
-const myVar = 'JavaScript is amazinig';
+const myVar = "JavaScript is amazinig";
 console.log(myVar)
